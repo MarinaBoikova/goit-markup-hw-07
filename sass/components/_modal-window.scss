@@ -24,10 +24,14 @@
     top: 8px;
     right: 8px;
     cursor: pointer;
+  
+  &:hover{
+      color: var(--accent-color);
+  }
+  &:hover {
+    color: var(--accent-color);
+  }
   }
   .button-close-icon-cross{
     fill: currentColor
-  }
-  .button-close:hover,.button-close:hover {
-    color: var(--accent-color);
   }
