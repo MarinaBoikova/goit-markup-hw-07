@@ -101,11 +101,11 @@
   border: 2px solid #212121;
   border-radius: 10%;
   margin-right: 8px;
-}
 
-.form-check:checked + .accept-contract-text > .accept-contract-text-checkbox {
+.form-check:checked + .accept-contract-text & {
   background-color: var(--accent-color);
   border: transparent;
+}
 }
 
 .wrapper-accept-contract {
